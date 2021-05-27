@@ -1,0 +1,35 @@
+.site-header__container {
+  display: flex;
+  align-items: center;
+  padding-bottom: 0;
+}
+
+.header-logo {
+  display: block;
+}
+
+.info-list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+}
+
+.info-list__item {
+  list-style-type: none;
+}
+
+.info-list__link {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 33px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  color: #83888F
+}
+
+.info-link:hover {
+  color: #333D4B;
+}

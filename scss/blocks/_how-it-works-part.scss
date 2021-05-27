@@ -1,0 +1,133 @@
+.how-it-works {
+}
+
+.how-it-works__container {
+  margin: 0;
+  padding: 0;
+}
+
+.how-it-works__h4 {
+  margin-top: 300px;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
+
+}
+
+.how-it-works__row{
+  width: 760px;
+  height: 1px;
+  border: 2px solid #FDD6BA;
+  background-color: #FDD6BA;
+  border-radius: 20px;
+  margin: 80px 0;
+}
+
+.row__list{
+  display: flex;
+    justify-content: space-between;
+
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  // display: none;
+}
+
+.row__list-item{
+  position: relative;
+  bottom: 10px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: #FEFCF7;
+  border: 2px solid #0E8784;
+  border-radius: 100px;
+  padding: 0;
+  margin: 0;
+}
+
+.row__list-item:nth-child(2n+1){
+margin: -5px;
+}
+
+.row__list-item:nth-child(2n){
+margin: -5px;
+}
+
+.how-it-works-words{
+}
+
+
+.words__list{
+  display: flex;
+text-decoration: none;
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+
+.words__list-item+.words__list-item {
+  padding-left: 95px;
+
+}
+
+.word__h2{
+height: 72px;
+left: 0%;
+right: 68.42%;
+top: calc(50% - 72px/2 - 141.5px);
+font-family: Fraunces 9pt;
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 72px;
+color: #FDD6BA;
+}
+
+.word__h3{
+height: 72px;
+left: 0%;
+right: 10.53%;
+top: calc(50% - 72px/2 - 31.5px);
+font-family: Fraunces 9pt;
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 36px;
+color: #333D4B;
+}
+
+.words__p{
+ width: 285px;
+ left: 0%;
+ right: 0%;
+ top: 63.38%;
+ bottom: 0%;
+ font-family: Barlow;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 16px;
+ line-height: 26px;
+ color: #333D4B;
+}
+
+.create-plan-button{
+  // padding: 10px; 
+  width: 217px;
+  height: 56px;
+  background: #0E8784;
+  border-radius: 6px;
+  // height: 25px;
+  left: 14.29%;
+  right: 14.29%;
+  top: calc(50% - 25px/2 - 0.5px);
+  font-family: Fraunces 9pt;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #FEFCF7;
+}
