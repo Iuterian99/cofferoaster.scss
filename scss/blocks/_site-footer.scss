@@ -1,0 +1,44 @@
+.site-footer__container {
+width: 1280px;
+height: 120px;
+left: 80px;
+top: 3387px;
+background: #2C343E;
+padding: 45px auto;
+display: flex;
+align-items: center;
+}
+
+.footer-leaf{
+  padding: 0;
+  margin: 0;
+}
+
+.footer-cofferoaster-word{
+  margin: 0;
+  padding: 0;
+}
+
+.info-list{
+  padding: 0;
+  margin: 0;
+}
+
+.info-list__item+.info-list__item {
+  padding-left: 33px;
+  margin: 0;
+}
+
+.info-list__item:nth-child(1){
+  margin-left: 100px;
+}
+
+.footer-path-logo-lists{
+  list-style-type: none;
+  text-decoration: none;
+  display: flex;
+}
+
+.path-list-item+.path-list-item{
+  padding-left: 24px;
+}

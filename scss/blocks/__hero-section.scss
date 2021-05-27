@@ -3,10 +3,12 @@
   background-repeat: no-repeat;
   background-size: 1280px;
   border-radius: 10px;
+  overflow: hidden;
 }
 
 .site-section__words {
-  width: 493px;
+  width: 100%;
+  max-width: 493px;
   // height: 367px;
   // padding: 100px 86px;
   padding: 0;
