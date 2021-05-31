@@ -1,0 +1,55 @@
+.Uncompromising-quality {
+  margin-top: 158px;
+  background-color: black;
+  border-radius: 10px;
+  position: relative;
+}
+
+.Uncompromising-quality-container {
+  display: flex;
+  width: 1280px;
+  height: 474px;
+}
+
+.quality-words {
+  padding-top: 50px;
+}
+
+.quality-words::after {
+  position: absolute;
+  bottom: 80px;
+  left: 650px;
+  display: inline-block;
+  content: " ";
+  background-image: url(../../images/Uncompromising.png);
+  background-repeat: no-repeat;
+  background-size: 442px 476px;
+  width: 442px;
+  height: 476px;
+}
+
+.Uncompromising-quality-h2 {
+  height: 48px;
+  left: 0%;
+  right: 4.26%;
+  top: calc(50% - 48px/2 - 81px);
+  font-family: Fraunces 9pt;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FEFCF7;
+}
+
+.Uncompromising-quality-p {
+  width: 540px;
+  height: 130px;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}

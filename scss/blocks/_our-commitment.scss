@@ -1,0 +1,53 @@
+.our-commitment {}
+
+.commitment-container {
+  // padding: 0;
+  // margin: 0;
+  width: 1110px;
+}
+
+.commitment-content {
+  display: flex;
+  align-items: center;
+}
+
+.commitment-content::before {
+  display: inline-block;
+  content: " ";
+  width: 485px;
+  height: 606px;
+  background-image: url(../../images/about-us-man.png);
+  background-repeat: no-repeat;
+  background-size: 445px 532px;
+  background-position: center;
+}
+
+.commitment-words {
+  padding-left: 125px;
+}
+
+.commitment-h2 {
+  height: 48px;
+  left: 0%;
+  right: 33.89%;
+  top: calc(50% - 48px/2 - 146px);
+  font-family: Fraunces 9pt;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #333D4B;
+}
+
+.commitment-p {
+  width: 540px;
+  height: 260px;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
