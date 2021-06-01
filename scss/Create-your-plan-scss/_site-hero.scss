@@ -1,0 +1,38 @@
+.site-hero{
+background-image: url(../../images/plan-background.png);
+background-repeat: no-repeat;
+background-size: 1280px 450px;
+width: 100%;
+max-width: 1280px;
+height: 450px;
+}
+
+.hero-h2{
+height: 72px;
+left: 0%;
+right: 0.21%;
+top: calc(50% - 72px/2 - 55px);
+font-family: Fraunces 9pt;
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 72px;
+color: #FEFCF7;
+}
+
+.hero-p{
+width: 445px;
+height: 78px;
+left: 0%;
+right: 8.44%;
+top: 57.14%;
+bottom: 0%;
+font-family: Barlow;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+color: #FEFCF7;
+mix-blend-mode: normal;
+opacity: 0.8;
+}

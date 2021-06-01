@@ -1,0 +1,62 @@
+.options-section{
+
+}
+
+.option-container{
+padding: 0;
+}
+
+.linking-words{
+  width: 100%;
+max-width: 255px;
+}
+
+.option-linking-list{
+  list-style-type: none;
+text-decoration: none;
+padding: 0;
+margin: 0;
+}
+
+.option-list-item{
+display: flex;
+align-items: center;
+border-bottom: 1px solid #83888F;
+}
+
+.numbers{
+display: inline-block;
+padding-right: 20px;
+height: 32px;
+left: 0%;
+right: 80.59%;
+top: calc(50% - 32px/2);
+font-family: Fraunces 9pt;
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+color: #83888F;
+}
+
+.option-list-item-p:active {
+
+}
+
+.option-list-item-p{
+display: inline;
+height: 32px;
+left: 34.41%;
+right: 0.29%;
+top: calc(50% - 32px/2); 
+font-family: Fraunces 9pt;
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+color: #83888F;
+}
+
+.deliveries{
+border-bottom: none;
+}

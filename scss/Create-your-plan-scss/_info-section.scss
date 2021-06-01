@@ -1,0 +1,44 @@
+.info-section{
+  background-color: #2C343E;
+  margin: 150px 0;
+padding-right: 60px;
+}
+
+.info-container{
+width: 1045px;
+// padding-left: 0;
+}
+
+.info-list-item +.info-list-item {
+  padding-left: 60px;
+}
+
+.info-h3{
+  width: 255px;
+  height: 72px;
+  height: 73px;
+  left: 0%;
+  right: 10.53%;
+  top: calc(50% - 73px/2 - 32px);
+  font-family: Fraunces 9pt;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #FEFCF7;
+}
+
+.info-p{
+  width: 285px;
+  height: 132px;
+left: 0%;
+right: 0%;
+top: 63.03%;
+bottom: 0%;
+font-family: Barlow;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+color: #FEFCF7;
+}
